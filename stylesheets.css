@@ -1,0 +1,16 @@
+.profile-area{
+    padding: 80px 0;
+}
+
+
+/* HOVER IN AN IMAGE */
+
+.zoom-effect {
+    background-image: url('images/main.jpg');
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+  
+  .zoom-effect:hover {
+    transform: scale(1.1);
+  }
